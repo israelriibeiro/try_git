@@ -17,6 +17,6 @@ jobs:
       - name: Print environment 
         id: print_environment
         env:
-          RAIL_DB: ${{ vars.RAILS_DB }}  
+          RAIL_DB: ${{ vars.RAIL_DB }}  
         run: |
           echo "Print variable $RAIL_DB"
